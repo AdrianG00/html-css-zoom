@@ -70,9 +70,50 @@ main{
 }
 
 
-
+/* footer */
 footer{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
     width: 100vw;
     height: 100px;
     background-color: rgba(34, 34, 34, 1);
+    color: white;
+    align-items: center;
+
+}
+.footer-left, .footer-center, .footer.right{
+    text-align: center;
+   
+}
+.icon-footer{
+    font-size: 2.5em;
+    padding-right: 1em; 
+    display: inline-block;
+}
+.icon-footer-up{
+    position: relative;
+    font-size: 2.5em;
+    padding-right: 2em;
+    padding-left: 0.5em;
+    display: inline-block;
+}
+
+.icon-footer div, .icon-footer-up div{
+    padding-top: 0.2em;
+}
+#up{
+    font-size: 2rem;
+    position: absolute;
+    right: 15%;
+    top: 30%;
+}
+.footer-right{
+    font-size: 2em;
+    color: red;
+    height: 100%;
+    line-height: 100px;
+    padding: 0 1em;
+    background-color: rgba(211, 211, 211, 0.274);
+
 }
